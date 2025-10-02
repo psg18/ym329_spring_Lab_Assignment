@@ -10,4 +10,5 @@ public interface BookDao {
 	public void deleteBook(int id);
 	public void updateBook(int id, Book book);
 	public Book getBookById(int id);
+	public void renameBook(string bookTitle);
 }
